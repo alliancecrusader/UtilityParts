@@ -49,7 +49,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdjustableColor.cs" />
+    <Compile Include="src\SFS\Parts\Modules\AdjustableColor.cs" />
+    <Compile Include="src\SFS\Variables\Composed_String.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
