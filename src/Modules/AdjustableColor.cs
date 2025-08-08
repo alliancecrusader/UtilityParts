@@ -1,12 +1,9 @@
-﻿using SFS.Variables;
-using System.Runtime.InteropServices;
-using UnityEngine;
-using Sirenix.OdinInspector;
+﻿using UnityEngine;
 using System;
 
-namespace SFS.Parts.Modules
+namespace UtilityParts.Modules
 {
-    public class AdjustableColor : ColorModule
+    public class AdjustableColor : SFS.Parts.Modules.ColorModule
     {
        public static Color HexToColor(string hex)
         {
@@ -47,7 +44,7 @@ namespace SFS.Parts.Modules
                 );
             }
         }
-        [BoxGroup("Tex", false)] public Composed_String Hex;
+        public Variables.Composed_String Hex;
         public override Color GetColor()
         {
             return HexToColor(Hex.Value);

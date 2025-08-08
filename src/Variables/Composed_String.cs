@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using SFS.Variables;
 
-namespace SFS.Variables
+namespace UtilityParts.Variables
 {
     [Serializable]
     public class Composed_String : Composed<string>
